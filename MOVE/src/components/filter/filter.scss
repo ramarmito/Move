@@ -1,0 +1,33 @@
+.filter {
+  nav {
+    display: flex;
+    align-items: center;
+
+    p {
+      color: #435b3d;
+      font-weight: 700;
+      margin-right: 2px;
+      font-size: 13px;
+    }
+
+    button {
+      background: transparent;
+      border: 0;
+      font-family: inherit;
+      font-weight: bold;
+      color: #606160;
+      cursor: pointer;
+      border-right: 1px solid #606160;
+      font-size: 13px;
+    }
+
+    button:last-child {
+      border: 0;
+      margin-right: -10px;
+    }
+
+    button.active {
+      color: #1d1e1c;
+    }
+  }
+}

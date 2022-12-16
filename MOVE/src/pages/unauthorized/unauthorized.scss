@@ -1,0 +1,11 @@
+.unauthorized {
+  display: flex;
+
+  .unauthorizedContainer {
+    background-color: #e3f3df;
+    flex: 0.87;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto; // to make the contents scrollable
+  }
+}

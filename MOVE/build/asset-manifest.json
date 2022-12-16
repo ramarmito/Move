@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2592a2a.css",
+    "main.js": "/static/js/main.6c962626.js",
+    "static/media/clars-canva-grey-edit1-final.png": "/static/media/clars-canva-grey-edit1-final.e4406f3b8ede8db4b80c.png",
+    "static/media/rox-canva-grey-edit1-final.png": "/static/media/rox-canva-grey-edit1-final.cf4c8bcb8ff059a3018e.png",
+    "static/media/jander-canva-grey-edit1-final.png": "/static/media/jander-canva-grey-edit1-final.beed7424ba955966eebd.png",
+    "static/media/ian-canva-grey-edit1-final.png": "/static/media/ian-canva-grey-edit1-final.9863efbc0bdb28cfb839.png",
+    "static/media/mc-canva-grey-edit1-final.png": "/static/media/mc-canva-grey-edit1-final.ce429f2bd4216403e83d.png",
+    "static/media/cpe_logo.png": "/static/media/cpe_logo.a505ca1a0aaea46bbbc4.png",
+    "static/media/tip_logo.png": "/static/media/tip_logo.e5581c6108efb9aa1886.png",
+    "static/media/event.png": "/static/media/event.9b4bbcad87c8d78d074f.png",
+    "static/media/scrum-board.png": "/static/media/scrum-board.61938529dc3997c9c305.png",
+    "index.html": "/index.html",
+    "main.c2592a2a.css.map": "/static/css/main.c2592a2a.css.map",
+    "main.6c962626.js.map": "/static/js/main.6c962626.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2592a2a.css",
+    "static/js/main.6c962626.js"
+  ]
+}

@@ -1,0 +1,220 @@
+.createAccount {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+
+  .left {
+    background-color: #e3f3df;
+    flex: 0.56;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .top {
+      margin-top: 80px;
+      width: 42vw;
+
+      p:nth-child(1) {
+        font-weight: 700;
+        font-size: 26px;
+      }
+
+      p:nth-child(2) {
+        margin-top: 10px;
+        font-size: 20px;
+        color: grey;
+      }
+    }
+
+    .bottom {
+      margin-top: 30px;
+      width: 42vw;
+
+      form {
+        .container {
+          display: flex;
+          justify-content: space-between;
+
+          label {
+            display: flex;
+            flex-direction: column;
+
+            span {
+              margin: 10px 0px;
+              font-size: 14px;
+              color: #0c8054;
+
+              .reminder {
+                font-size: 11px;
+                font-style: italic;
+                color: rgb(96, 94, 94);
+              }
+            }
+
+            input {
+              border: none;
+              border-radius: 8px;
+              height: 35px;
+              background-color: #c8d7c2;
+              text-indent: 10px;
+              padding-right: 10px;
+              color: rgb(96, 94, 94);
+              font-weight: 500;
+              width: 19.5vw;
+            }
+
+            input::-webkit-calendar-picker-indicator {
+              margin-right: 10px;
+            }
+          }
+        }
+
+        .email {
+          display: flex;
+          flex-direction: column;
+
+          span {
+            margin: 10px 0px;
+            font-size: 14px;
+            color: #0c8054;
+
+            .reminder {
+              font-size: 11px;
+              font-style: italic;
+              color: rgb(96, 94, 94);
+            }
+          }
+
+          input {
+            border: none;
+            border-radius: 8px;
+            height: 35px;
+            background-color: #c8d7c2;
+            text-indent: 10px;
+            padding-right: 10px;
+            color: rgb(96, 94, 94);
+            font-weight: 500;
+          }
+        }
+
+        // .privacy {
+        //   margin-top: 50px;
+        //   display: flex;
+
+        //   input {
+        //     margin-right: 10px;
+        //     accent-color: #c8d7c2;
+        //   }
+
+        //   p {
+        //     font-size: 16px;
+        //     color: grey;
+        //   }
+
+        //   span {
+        //     font-size: 16px;
+        //     font-weight: bold;
+        //     color: #0c8054;
+        //     &:hover {
+        //       cursor: pointer;
+        //     }
+        //   }
+        // }
+
+        .button {
+          margin-top: 45px;
+          text-align: center;
+
+          button {
+            border: none;
+            height: 32px;
+            width: 140px;
+            border-radius: 6px;
+            background-color: #004241;
+            color: white;
+            font-family: "Inter";
+            font-weight: 600;
+
+            &:hover {
+              height: 34px;
+              width: 142px;
+              cursor: pointer;
+              box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            }
+          }
+
+          p {
+            margin-top: 8px;
+            font-size: 12px;
+            color: red;
+            text-align: center;
+          }
+        }
+      }
+
+      .signup {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+          font-size: 16px;
+          color: grey;
+        }
+
+        .link {
+          font-size: 16px;
+          color: grey;
+
+          &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .right {
+    background-color: #435b3d;
+    flex: 0.44;
+
+    .top {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .title {
+        font-family: "Lora";
+        color: #efffe8;
+        font-size: 100px;
+        font-weight: bold;
+        letter-spacing: 20px;
+        margin-right: -20px;
+        // span {
+        //   font-family: "Lora";
+        //   color: #c8d7c2;
+        // }
+      }
+      .subtitle {
+        font-family: "Inter";
+        color: #c8d7c2;
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin-right: -2px;
+      }
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 36vw;
+      }
+    }
+  }
+}

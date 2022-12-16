@@ -1,0 +1,217 @@
+.myOutreach {
+  display: flex;
+
+  .myOutreachContainer {
+    background-color: #e3f3df;
+    flex: 0.87;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto; // to make the contents scrollable
+
+    .top {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 70px;
+      margin-bottom: 50px;
+      width: 80vw;
+      margin-left: 2.25vw;
+
+      p {
+        color: #435b3d;
+        font-size: 32px;
+        font-weight: bold;
+      }
+    }
+
+    .middle {
+      display: flex;
+
+      .statusCard {
+        background-color: #435b3d;
+        height: 28vh;
+        width: 80vw;
+        margin-left: 2.25vw;
+        margin-top: 26px;
+        margin-bottom: 52px;
+        border: 0.5px solid #d1d1d1;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+        .header {
+          font-size: 24px;
+          font-size: Inter;
+          font-weight: bold;
+          margin-bottom: 20px;
+          color: #f5f5f5;
+        }
+
+        .count {
+          font-size: 58px;
+          font-size: Inter;
+          font-weight: bold;
+          margin-bottom: 20px;
+          color: #f5f5f5;
+        }
+
+        .left {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 100%;
+          width: 40%;
+          border-right: 0.5px solid #d1d1d1;
+        }
+
+        .middle {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 100%;
+          width: 30%;
+          border-right: 0.5px solid #d1d1d1;
+        }
+
+        .right {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 100%;
+          width: 30%;
+        }
+      }
+    }
+
+    .bottom {
+      display: flex;
+      flex-direction: column;
+
+      .error {
+        margin-top: 80px;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        color: red;
+      }
+
+      .empty {
+        margin-top: 80px;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+      }
+
+      .myOutreachCard {
+        background-color: #edefed;
+        height: 10vh;
+        width: 80vw;
+        margin-left: 2.25vw;
+        margin-bottom: 26px;
+        border: 0.5px solid #d1d1d1;
+        border-radius: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+        .left {
+          display: flex;
+          // justify-content: center;
+          align-items: center;
+          height: 100%;
+          width: 80%;
+
+          .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 30px;
+            padding-right: 30px;
+            height: auto;
+            width: auto;
+          }
+          .statusPending {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #606160;
+            font-size: 16px;
+            font-weight: bold;
+            padding-left: 30px;
+            height: 80%;
+            width: auto;
+            border-left: 2px solid #d1d1d1;
+          }
+          .statusRejected {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ff3838;
+            font-size: 16px;
+            font-weight: bold;
+            padding-left: 30px;
+            height: 80%;
+            width: auto;
+            border-left: 2px solid #d1d1d1;
+          }
+          .statusInProgress {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f7bd01;
+            font-size: 16px;
+            font-weight: bold;
+            padding-left: 30px;
+            height: 80%;
+            width: auto;
+            border-left: 2px solid #d1d1d1;
+          }
+          .statusCompleted {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #0c8054;
+            font-size: 16px;
+            font-weight: bold;
+            padding-left: 30px;
+            height: 80%;
+            width: auto;
+            border-left: 2px solid #d1d1d1;
+          }
+        }
+
+        .right {
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          height: 100%;
+          width: 20%;
+          padding-right: 30px;
+
+          .icons {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            font-size: 18px;
+            background: none;
+            color: #555753;
+
+            &:hover {
+              cursor: pointer;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

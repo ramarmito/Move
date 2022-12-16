@@ -1,0 +1,257 @@
+.accountInfo {
+  display: flex;
+
+  .accountInfoContainer {
+    display: flex;
+    flex: 0.87;
+    background-color: #e3f3df;
+    height: 100vh;
+    width: 80vw;
+
+    .left {
+      width: 45vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10vh;
+
+      .top {
+        font-weight: 700;
+        font-size: 40px;
+        color: #435b3d;
+        margin-bottom: 4vh;
+      }
+
+      .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .thumbnailContainer {
+          position: relative;
+          height: 240px;
+          width: 240px;
+          display: flex;
+          justify-content: center;
+
+          img {
+            height: 240px;
+            width: 240px;
+            border-radius: 50%;
+          }
+
+          .avatar {
+            color: #435b3d;
+            height: 260px;
+            width: 260px;
+          }
+
+          .iconContainer {
+            position: absolute;
+            bottom: 12px;
+            left: 32px;
+            background-color: #cfdacc;
+            height: 36px;
+            width: 36px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .cameraIcon {
+              font-size: 24px;
+              color: #1d1f23;
+
+              &:hover {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+
+        .buttonUpload {
+          display: flex;
+          align-items: center;
+          margin-top: 2vh;
+          width: 220px;
+
+          input[type="file"]::-webkit-file-upload-button {
+            border: none;
+            border-radius: 6px;
+            height: 28px;
+            width: 90px;
+            background-color: #004241;
+            color: white;
+            font-size: 12px;
+            font-weight: 500;
+            font-family: Inter;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+
+          .cancelIcon {
+            font-size: 24px;
+            color: #1d1f23;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+
+        p,
+        .error {
+          text-align: center;
+          margin-top: 10px;
+          color: red;
+          font-size: 14px;
+        }
+
+        button {
+          margin-top: 20px;
+          border: none;
+          height: 32px;
+          width: 120px;
+          padding: 5px;
+          border-radius: 6px;
+          background-color: #004241;
+          color: white;
+          font-family: "Inter";
+          font-weight: 500;
+          font-size: 10px;
+          transition: 0.1s;
+
+          &:hover {
+            height: 34px;
+            width: 122px;
+            cursor: pointer;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          }
+        }
+      }
+    }
+
+    .right {
+      width: 55vw;
+      margin-top: 20vh;
+      background-color: #e3f3df;
+
+      form {
+        width: 32vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        label {
+          text-align: start;
+          margin: 10px 10px;
+          font-size: 20px;
+          font-weight: 600;
+          // color: #000000;
+
+          span {
+            margin-left: 6px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #435b3d;
+          }
+
+          input {
+            margin-top: 10px;
+            width: 100%;
+            border-radius: 8px;
+            border: none;
+            height: 35px;
+            background-color: #c8d7c2;
+            text-indent: 10px;
+            padding-right: 10px;
+            color: rgb(96, 94, 94);
+            font-weight: 500;
+          }
+
+          input::-webkit-calendar-picker-indicator {
+            margin-right: 10px;
+          }
+        }
+
+        .button {
+          margin-top: 35px;
+          display: flex;
+          justify-content: center;
+
+          .buttonSave {
+            .save {
+              border: none;
+              height: 32px;
+              width: 120px;
+              padding: 5px;
+              border-radius: 6px;
+              background-color: #004241;
+              color: white;
+              font-family: "Inter";
+              font-weight: 600;
+              transition: 0.1s;
+
+              &:hover {
+                height: 34px;
+                width: 122px;
+                cursor: pointer;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+              }
+            }
+
+            .saving {
+              border: none;
+              height: 32px;
+              width: 140px;
+              padding: 5px;
+              border-radius: 6px;
+              background-color: #004241;
+              color: white;
+              font-family: "Inter";
+              font-weight: 600;
+              transition: 0.1s;
+
+              &:hover {
+                cursor: pointer;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+              }
+            }
+          }
+
+          .buttonCancel {
+            margin-left: 30px;
+            .cancel {
+              border: none;
+              height: 32px;
+              width: 120px;
+              padding: 5px;
+              border-radius: 6px;
+              background-color: #cfdacc;
+              color: #444843;
+              font-family: "Inter";
+              font-weight: 600;
+              transition: 0.1s;
+
+              &:hover {
+                height: 34px;
+                width: 122px;
+                cursor: pointer;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+              }
+            }
+          }
+        }
+
+        p {
+          text-align: center;
+          margin-top: 10px;
+          color: red;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

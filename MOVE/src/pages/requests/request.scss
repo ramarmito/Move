@@ -1,0 +1,26 @@
+.requests {
+  display: flex;
+
+  .requestsContainer {
+    background-color: #e3f3df;
+    flex: 0.87;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto; // to make the contents scrollable
+
+    .top {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 70px;
+      margin-bottom: 50px;
+      width: 80vw;
+      margin-left: 2.25vw;
+
+      p {
+        color: #435b3d;
+        font-size: 32px;
+        font-weight: bold;
+      }
+    }
+  }
+}

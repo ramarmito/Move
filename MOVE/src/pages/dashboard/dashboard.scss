@@ -1,0 +1,87 @@
+.dashboard {
+  display: flex;
+
+  .dashboardContainer {
+    background-color: #e3f3df;
+    flex: 0.87;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto; // to make the contents scrollable
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 80vw;
+      margin-left: 2.25vw;
+
+      .topLeft {
+        p {
+          color: #435b3d;
+          font-weight: 700;
+          margin-left: 10px;
+          font-size: 13px;
+
+          span {
+            color: #1d1e1c;
+          }
+        }
+        button {
+          border: none;
+          width: 240px;
+          height: 32px;
+          padding: 5px;
+          border-radius: 12px;
+          background-color: #435b3d;
+          color: #e0f0dc;
+          font-family: "Inter";
+          font-weight: 600;
+          margin-left: 10px;
+          margin-top: 12px;
+          transition: 0.1s;
+
+          &:hover {
+            width: 242px;
+            height: 34px;
+            cursor: pointer;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          }
+        }
+      }
+
+      .topRight {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.5px solid #d1d1d1;
+        border-radius: 6px;
+        height: 26px;
+        width: 340px;
+        background-color: #edefed;
+
+        span {
+          color: #1d1e1c;
+          font-weight: 700;
+          margin-right: 10px;
+          font-size: 13px;
+        }
+        input {
+          border: 0.5px solid #d1d1d1;
+          border-radius: 6px;
+          height: 20px;
+          width: 160px;
+          background-color: #edefed;
+          font-size: 13px;
+          font-weight: 700;
+          text-indent: 15px;
+          padding-right: 20px;
+        }
+
+        ::placeholder {
+          color: #1d1e1c;
+        }
+      }
+    }
+  }
+}
